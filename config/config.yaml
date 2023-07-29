@@ -2,8 +2,17 @@ artifacts_root: artifacts
 
 
 data_ingestion:
-  root_dir: artifacts/data_ingestion  # folder
+  root_dir: artifacts/data_ingestion  # folder where we are storing
   source_URL: https://github.com/Gurdeepsingh96/branching_tutorial/raw/main/winequality-data.zip
   local_data_file: artifacts/data_ingestion/data.zip
-  unzip_dir: artifacts/data_ingestion
+  unzip_dir: artifacts/data_ingestion #unzip folder path data after downloading 
+
+
+   
+data_validation:
+  root_dir: artifacts/data_validation
+  unzip_data_dir: artifacts/data_ingestion/winequality-red.csv 
+  STATUS_FILE: artifacts/data_validation/status.txt
+
+
 
