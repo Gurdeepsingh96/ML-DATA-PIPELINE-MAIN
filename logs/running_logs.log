@@ -372,3 +372,143 @@ x==========x]
 [2023-07-29 19:49:58,117: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
 
 x==========x]
+[2023-07-30 01:06:58,064: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-30 01:06:58,075: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-30 01:06:58,081: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-07-30 01:06:58,087: INFO: common: created directory at: artifacts]
+[2023-07-30 01:06:58,090: INFO: common: created directory at: artifacts/data_validation]
+[2023-07-30 01:06:58,136: INFO: 741865018: Splited data into training and test sets]
+[2023-07-30 01:06:58,137: INFO: 741865018: (1199, 12)]
+[2023-07-30 01:06:58,139: INFO: 741865018: (400, 12)]
+[2023-07-30 01:07:55,367: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-30 01:07:55,374: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-30 01:07:55,378: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-07-30 01:07:55,380: INFO: common: created directory at: artifacts]
+[2023-07-30 01:07:55,388: INFO: common: created directory at: artifacts/data_validation]
+[2023-07-30 01:08:14,054: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-30 01:08:14,059: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-30 01:08:14,064: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-07-30 01:08:14,067: INFO: common: created directory at: artifacts]
+[2023-07-30 01:08:14,073: INFO: common: created directory at: artifacts/data_validation]
+[2023-07-30 01:09:02,680: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-30 01:09:02,684: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-30 01:09:02,690: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-07-30 01:09:02,693: INFO: common: created directory at: artifacts]
+[2023-07-30 01:09:02,695: INFO: common: created directory at: artifacts/data_trasnformation]
+[2023-07-30 01:09:02,758: INFO: 741865018: Splited data into training and test sets]
+[2023-07-30 01:09:02,779: INFO: 741865018: (1199, 12)]
+[2023-07-30 01:09:02,780: INFO: 741865018: (400, 12)]
+[2023-07-30 01:20:42,097: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-07-30 01:20:42,100: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-30 01:20:42,101: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-30 01:20:42,104: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-07-30 01:20:42,105: INFO: common: created directory at: artifacts]
+[2023-07-30 01:20:42,105: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-07-30 01:20:43,574: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: FD4A:269963:17B562:210509:64C441F7
+Accept-Ranges: bytes
+Date: Sat, 29 Jul 2023 19:50:43 GMT
+Via: 1.1 varnish
+X-Served-By: cache-ccu830043-CCU
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1690660243.037148,VS0,VE607
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: b7b6cb27344b417719ca19cbd7de05fa2e692048
+Expires: Sat, 29 Jul 2023 19:55:43 GMT
+Source-Age: 0
+
+]
+[2023-07-30 01:20:43,582: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-07-30 01:20:43,582: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2023-07-30 01:20:43,586: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-30 01:20:43,587: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-30 01:20:43,594: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-07-30 01:20:43,595: INFO: common: created directory at: artifacts]
+[2023-07-30 01:20:43,596: INFO: common: created directory at: artifacts/data_validation]
+[2023-07-30 01:20:43,615: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2023-07-30 01:20:43,616: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2023-07-30 01:20:43,632: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-30 01:20:43,633: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-30 01:20:43,637: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-07-30 01:20:43,638: INFO: common: created directory at: artifacts]
+[2023-07-30 01:20:43,638: INFO: common: created directory at: artifacts/data_trasnformation]
+[2023-07-30 01:20:43,678: INFO: data_transforamtion: Splited data into training and test sets]
+[2023-07-30 01:20:43,679: INFO: data_transforamtion: (1199, 12)]
+[2023-07-30 01:20:43,679: INFO: data_transforamtion: (400, 12)]
+[2023-07-30 01:20:43,679: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2023-07-30 01:34:15,524: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-07-30 01:34:15,526: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-30 01:34:15,527: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-30 01:34:15,528: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-07-30 01:34:15,529: INFO: common: created directory at: artifacts]
+[2023-07-30 01:34:15,529: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-07-30 01:34:16,622: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: FD4A:269963:17B562:210509:64C441F7
+Accept-Ranges: bytes
+Date: Sat, 29 Jul 2023 20:04:16 GMT
+Via: 1.1 varnish
+X-Served-By: cache-ccu830024-CCU
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1690661056.440183,VS0,VE341
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 29d403dbeff4062b377a42e0805f9d7a24da818e
+Expires: Sat, 29 Jul 2023 20:09:16 GMT
+Source-Age: 0
+
+]
+[2023-07-30 01:34:16,625: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-07-30 01:34:16,625: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2023-07-30 01:34:16,628: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-30 01:34:16,630: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-30 01:34:16,635: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-07-30 01:34:16,636: INFO: common: created directory at: artifacts]
+[2023-07-30 01:34:16,636: INFO: common: created directory at: artifacts/data_validation]
+[2023-07-30 01:34:16,648: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2023-07-30 01:34:16,649: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2023-07-30 01:34:16,652: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-30 01:34:16,653: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-30 01:34:16,656: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-07-30 01:34:16,657: INFO: common: created directory at: artifacts]
+[2023-07-30 01:34:16,657: INFO: common: created directory at: artifacts/data_trasnformation]
+[2023-07-30 01:34:16,690: INFO: data_transformation: Splited data into training and test sets]
+[2023-07-30 01:34:16,690: INFO: data_transformation: (1199, 12)]
+[2023-07-30 01:34:16,690: INFO: data_transformation: (400, 12)]
+[2023-07-30 01:34:16,690: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
