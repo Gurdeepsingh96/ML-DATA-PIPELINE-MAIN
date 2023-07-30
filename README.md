@@ -65,7 +65,7 @@ open up you local host and port
 
 MLFLOW_TRACKING_URI=https://dagshub.com/Gurdeepsingh96/ML-DATA-PIPELINE-MAIN.mlflow \
 MLFLOW_TRACKING_USERNAME=Gurdeepsingh96 \
-MLFLOW_TRACKING_PASSWORD=798d5bb955c426f4c7bc9169b52c3a0fce8c79b2 \
+MLFLOW_TRACKING_PASSWORD= \
 python script.py
 
 Run this to export as env variables:
@@ -76,7 +76,7 @@ export MLFLOW_TRACKING_URI=https://dagshub.com/Gurdeepsingh96/ML-DATA-PIPELINE-M
 
 export MLFLOW_TRACKING_USERNAME=Gurdeepsingh96 
 
-export MLFLOW_TRACKING_PASSWORD=798d5bb955c426f4c7bc9169b52c3a0fce8c79b2
+export MLFLOW_TRACKING_PASSWORD=
 
 ```
 
