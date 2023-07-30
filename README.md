@@ -13,3 +13,70 @@
 8. Update the main.py
 9. Update the app.py
 
+
+
+# How to run?
+### STEPS:
+
+Clone the repository
+
+```bash
+https://github.com/Gurdeepsingh96/ML-DATA-PIPELINE-MAIN
+```
+### STEP 01- Create a conda environment after opening the repository
+
+```bash
+conda create -n mlproj python=3.8 -y
+```
+
+```bash
+conda activate mlproj
+```
+
+
+### STEP 02- install the requirements
+```bash
+pip install -r requirements.txt
+```
+
+
+```bash
+# Finally run the following command
+python app.py
+```
+
+Now,
+```bash
+open up you local host and port
+```
+
+
+
+## MLflow
+
+[Documentation](https://mlflow.org/docs/latest/index.html)
+
+
+##### cmd
+- mlflow ui
+
+### dagshub
+[dagshub](https://dagshub.com/)
+
+MLFLOW_TRACKING_URI=https://dagshub.com/Gurdeepsingh96/ML-DATA-PIPELINE-MAIN.mlflow \
+MLFLOW_TRACKING_USERNAME=Gurdeepsingh96 \
+MLFLOW_TRACKING_PASSWORD=798d5bb955c426f4c7bc9169b52c3a0fce8c79b2 \
+python script.py
+
+Run this to export as env variables:
+
+```bash
+
+export MLFLOW_TRACKING_URI=https://dagshub.com/Gurdeepsingh96/ML-DATA-PIPELINE-MAIN.mlflow
+
+export MLFLOW_TRACKING_USERNAME=Gurdeepsingh96 
+
+export MLFLOW_TRACKING_PASSWORD=798d5bb955c426f4c7bc9169b52c3a0fce8c79b2
+
+```
+
